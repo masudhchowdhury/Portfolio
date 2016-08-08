@@ -1,0 +1,19 @@
+.portfolio-box {
+width: 46%;
+display: inline-block;
+}
+p.portfolio-text {
+background-color: #4aaaa5;
+color: white;
+font-size: 18px;
+text-align: center;
+padding: 14px 0;
+margin: 132px 0 10px 0;
+}
+.box-container {
+    padding-bottom: 50px;
+}
+.space {
+display: inline-block; 
+width: 6.5%;
+}
