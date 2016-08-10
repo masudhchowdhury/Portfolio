@@ -25,7 +25,7 @@ background-color: #ffffff;
 border-bottom: 3px solid #cccccc;
 }
 nav {
-float
+float:right;
 }
 ul {
 padding: 15px 0;
@@ -54,21 +54,21 @@ padding-top: 18px;
 padding-bottom: 22px;
 }
 .content-block {
-width: 650px;
+/*width: 650px;*/
 background-color: #ffffff;
-display: inline-block;
+/*display: inline-block;*/
 }
 .sub-content-block {
 padding: 25px;
 border: 1px solid #dddddd;
 }
 .about-image {
-height: 200px;
-width: 210px;
+/*height: 200px;*/
+/*width: 210px;*/
 float: left;
 padding-right: 20px;
 }
-div.sidebar {
+.sidebar {
 width: 270px;
 background-color: #ffffff;
 float: right;
@@ -76,6 +76,7 @@ float: right;
 .sidebar-content {
 padding: 25px;
 border: 1px solid #dddddd;
+float: right;
 }
 footer {
 padding: 30px 0;
@@ -88,3 +89,6 @@ color: #d6d6d6;
 text-align: center;
 line-height: 14px;
 }
+
+
+@media screen and (max-width: 980px, 768px, 640px)

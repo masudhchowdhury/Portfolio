@@ -17,3 +17,6 @@ margin: 132px 0 10px 0;
 display: inline-block; 
 width: 6.5%;
 }
+
+
+@media screen and (max-width: 980px, 768px, 640px)
